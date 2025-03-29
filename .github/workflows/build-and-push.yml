@@ -1,12 +1,11 @@
 name: Build and push image to Docker Hub
-
 on:
   push:
     branches:
       - main
 
 jobs:
-  buiild:
+  build:
     runs-on: ubuntu-latest
 
     steps:
